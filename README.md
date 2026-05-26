@@ -35,6 +35,29 @@ Este projeto foi construído utilizando a plataforma No-Code **Bubble.io**, apri
 - **APIs RESTful:** Consumo de API em formato JSON para automação de dados geográficos.
 - **Flexbox (Responsividade):** Uso de *containers* flexíveis, margens dinâmicas (`gap`) e quebra automática de linha (`Wrap`) para adaptação *Mobile-First*.
 
+## ⚙️ Instruções de Uso (Como Testar)
+
+Para testar todas as funcionalidades da aplicação de forma prática:
+
+Acesse a Aplicação: Abra o link público do projeto no seu navegador.
+
+Explore a Vitrine: Passe o mouse sobre os móveis para observar o Hover Effect de profundidade.
+
+Valide a Automação: - Desça até o formulário e digite um CEP válido (Ex: 93330390).
+
+Clique fora da caixa de texto e aguarde o preenchimento automático.
+
+Teste a Lógica de Frete:
+
+Entrega Gratuita: Insira um CEP de Novo Hamburgo ou São Leopoldo (a mensagem ficará verde).
+
+Com Taxa: Insira um CEP de outra cidade (Ex: 01001000). A mensagem alertará sobre a taxa.
+
+Redirecionamento: Clique no botão "Falar no WhatsApp" e verifique a abertura de uma nova guia com a mensagem parametrizada (URL encoded).
+
+## 👨‍💻 Autor
+Desenvolvido por Nédio Francisco Marques Junior Projeto de cunho acadêmico.
+
 ### Exemplo de CSS Injetado no Projeto
 ```css
 <style>
@@ -47,4 +70,3 @@ Este projeto foi construído utilizando a plataforma No-Code **Bubble.io**, apri
     cursor: pointer !important;
   }
 </style>
-
